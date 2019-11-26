@@ -1,0 +1,129 @@
+    	body {
+	    	margin: 0 auto;
+	    	padding: 130px 250px 100px 100px;
+	    	width: 25%;
+	    	background: #fbfbfa;
+        color: white;
+        }
+      .bg {
+        width: 600px;
+        height: 450px;
+        background-image: url('img/bg_battle.jpg');
+        background-size: cover;
+      }
+/*    	h1{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 50px;
+      }*/
+      h2{
+        font-family: 'Noto Serif JP', sans-serif;
+        color: skyblue;
+        margin-top: 60px;
+        padding-top: 20px;
+        font-size: 80px;
+        text-align: center;
+        text-shadow:2px 2px 0 #000, -2px -2px 0 #000,
+                   -2px 2px 0 #000, 2px -2px 0 #000,
+                    0px 1px 0 #000,  0-1px 0 #000,
+                   -1px 0 0 #000, 1px 0 0 #000;
+      }
+      .top-win{
+        width: 200px;
+        padding: 10px;
+        text-align: center;
+        margin-left: 15px;
+        background: black;
+        border : solid 1px #FFF;
+        border-radius: 10px;
+      }
+      .monster-hp{
+        font-size: 16px;
+        color: black;
+        font-weight: bold;
+        padding-top: 20px;
+        text-align: center;
+      }
+      .gamestart{
+        position: absolute;
+        left: 180px;
+      }
+    	form{
+	    	overflow: hidden;
+    	}
+    	input[type="text"]{
+    		color: #545454;
+	    	height: 60px;
+	    	width: 100%;
+	    	padding: 5px 10px;
+	    	font-size: 16px;
+	    	display: block;
+	    	margin-bottom: 10px;
+	    	box-sizing: border-box;
+    	}
+      input[type="password"]{
+    		color: #545454;
+	    	height: 60px;
+	    	width: 100%;
+	    	padding: 5px 10px;
+	    	font-size: 16px;
+	    	display: block;
+	    	margin-bottom: 10px;
+	    	box-sizing: border-box;
+    	}
+    	input[type="submit"]{
+	    	padding: 12px 30px;
+	    	margin-left: 16px;
+        margin-right: : 16px;
+	    	background: navy;
+	    	color: white;
+	    	float: left;
+        font-size: 18px;
+        border : solid 1px #FFF;
+        border-radius: 10px;
+    	}
+      .window{
+        overflow: hidden;
+      }
+      .left-win{
+        width: 180px;
+        padding: 10px;
+        margin-left: 15px;
+        background: black;
+        border : solid 1px #FFF;
+        border-radius: 10px;
+        text-align: center;
+        float: left;
+      }
+      .right-win{
+        width: 350px;
+        padding: 10px;
+        position: absolute;
+        right: -340px;
+        top: 0;
+        color:white;
+        background-color: black;
+        border : solid 2px skyblue;
+        border-radius: 10px;
+        text-align: center;
+        line-height: 25px;
+      }
+    	input[type="submit"]:hover{
+	    	background: #3d3938;
+	    	cursor: pointer;
+    	}
+    	a{
+	    	color: #545454;
+	    	display: block;
+    	}
+    	a:hover{
+	    	text-decoration: none;
+    	}
+      .slash img {
+        top: 70px;
+        left: 200px;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+      }
